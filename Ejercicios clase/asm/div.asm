@@ -1,16 +1,16 @@
 .global main
 
+
 main:
 
-li $t0,0
-li $t1,4
+li $t0,15
+li $t1,5
 
-slt $a0,$t0,$t1
+div $t0,$t1
+
+mflo $t3
+move $a0,$t3
 jal printInt
 
-
-
-
-;<  1
-;=  0
-;>  0
+li $a0,10
+jal printChar
