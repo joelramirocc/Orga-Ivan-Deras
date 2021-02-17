@@ -28,13 +28,13 @@ addi $t8, $zero, 1
 ;CONTADOR2 t8 ---------------------------
 addi $t9, $zero, 0
 
-tt:
+draw_triangle:
 beq $t9,$t2,t2
         addi $v0, $zero, 11
         addi $a0, $zero, 32
         syscall
 addi $t9, $t9,1
-j tt
+j draw_triangle
 
 t2:
         addi $v0, $zero, 11
@@ -160,14 +160,14 @@ end:
 
 
 
-beq $t9,$t2,tt2
+beq $t9,$t2,draw_triangle2
         addi $v0, $zero, 11
         addi $a0, $zero, 32
         syscall
 addi $t9, $t9,1
 j end
 
-tt2:
+draw_triangle2:
         addi $v0, $zero, 11
         addi $a0, $zero, 32
         syscall
