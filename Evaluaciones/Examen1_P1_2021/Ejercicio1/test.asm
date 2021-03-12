@@ -3,7 +3,7 @@
 main:
 addi $sp,$sp,-4
 sw $ra,0($sp)
-li $a0,3
+li $a0,15
 
 draw_triangle:
     li $s0,2

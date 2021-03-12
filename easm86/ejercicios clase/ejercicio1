@@ -1,0 +1,77 @@
+;t
+eax => ax => ah => al
+ebx
+ecx
+edx
+
+set eax = 10
+#show eax
+mov eax,0x0054454
+
+
+;s
+esi
+edi
+
+
+los argumentos pueden ser registros, memoria o constantes
+
+la unica combinacion no valida es memoria->memoria(2 referencias a memoria en una misma instruccion)
+
+mov eax,0xasdasd
+mov eax,ebx
+
+mov dword [direction], eax
+mover a esa direccion de memoria eax
+mov eax, dword [direction]
+add eax,10
+add dword [0x56565],10
+sub eax,10
+
+->
+mov eax = 0x454421551 => direccion de memoria
+move dword[eax],12
+<-
+
+move dword[eax+4],12
+
+move dword[eax+4*ebx],12 => potencia de 2 la constantes
+inc ebx
+dec ebx
+mult ebx => solo registros
+siempre multiplica eax con otro valor => siempre limpiar eax = move eax,0
+div 
+siempre utiliza eax
+cociente eax
+residuo edx
+cdq => idiv => extension de signo => cdq modifica eax por lo del signo
+
+and
+or
+not eax => invierte los bits
+neg eax => sacar complemento a dos (numero en negativo o viceversa)
+
+cmp eax,ebx
+zf => si el resultado fue 0 => 2
+cf => con siigno
+of => sin signo
+je label => si es igual saltar a label
+jz label => si es igual a cero saltar a label
+jl <
+jle <=
+jg >
+jge >=
+jbe <=
+ja >
+jae >=
+
+
+call
+ret => saca y salta
+push => inserta
+pop=> solo saca
+esp
+
+repmovsb
+
+rep movsb
