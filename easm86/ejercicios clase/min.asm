@@ -93,7 +93,7 @@ main:
 
 
             mov eax,4
-            mov ebx,0x10000000
+            mov ebx,0x10000108
             int 0x80
 
             mov eax,1
