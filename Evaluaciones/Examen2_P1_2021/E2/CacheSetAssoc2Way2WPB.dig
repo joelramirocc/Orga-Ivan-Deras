@@ -76,11 +76,6 @@ endmodule</string>
       <pos x="280" y="320"/>
     </visualElement>
     <visualElement>
-      <elementName>examen_controller.dig</elementName>
-      <elementAttributes/>
-      <pos x="400" y="320"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -335,31 +330,28 @@ endmodule</string>
       </elementAttributes>
       <pos x="600" y="240"/>
     </visualElement>
+    <visualElement>
+      <elementName>controller_2w_2vias.dig</elementName>
+      <elementAttributes/>
+      <pos x="380" y="320"/>
+    </visualElement>
   </visualElements>
   <wires>
-    <wire>
-      <p1 x="600" y="320"/>
-      <p2 x="720" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="320"/>
-      <p2 x="400" y="320"/>
-    </wire>
     <wire>
       <p1 x="840" y="320"/>
       <p2 x="860" y="320"/>
     </wire>
     <wire>
+      <p1 x="580" y="320"/>
+      <p2 x="720" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="320"/>
+      <p2 x="380" y="320"/>
+    </wire>
+    <wire>
       <p1 x="840" y="400"/>
       <p2 x="860" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="400"/>
-      <p2 x="400" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="480"/>
-      <p2 x="400" y="480"/>
     </wire>
     <wire>
       <p1 x="600" y="240"/>
@@ -370,11 +362,7 @@ endmodule</string>
       <p2 x="860" y="340"/>
     </wire>
     <wire>
-      <p1 x="380" y="340"/>
-      <p2 x="400" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="340"/>
+      <p1 x="580" y="340"/>
       <p2 x="620" y="340"/>
     </wire>
     <wire>
@@ -382,24 +370,12 @@ endmodule</string>
       <p2 x="860" y="420"/>
     </wire>
     <wire>
-      <p1 x="380" y="420"/>
-      <p2 x="400" y="420"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="360"/>
-      <p2 x="400" y="360"/>
-    </wire>
-    <wire>
       <p1 x="840" y="360"/>
       <p2 x="860" y="360"/>
     </wire>
     <wire>
-      <p1 x="600" y="360"/>
+      <p1 x="580" y="360"/>
       <p2 x="620" y="360"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="440"/>
-      <p2 x="400" y="440"/>
     </wire>
     <wire>
       <p1 x="840" y="440"/>
@@ -410,20 +386,12 @@ endmodule</string>
       <p2 x="620" y="280"/>
     </wire>
     <wire>
-      <p1 x="380" y="380"/>
-      <p2 x="400" y="380"/>
-    </wire>
-    <wire>
       <p1 x="840" y="380"/>
       <p2 x="860" y="380"/>
     </wire>
     <wire>
       <p1 x="840" y="460"/>
       <p2 x="860" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="460"/>
-      <p2 x="400" y="460"/>
     </wire>
   </wires>
   <measurementOrdering/>
